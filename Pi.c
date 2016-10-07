@@ -104,7 +104,6 @@ int main(int argc, const char * argv[]) {
         if (p[i]<1000) printf("0");
         if (p[i]<100) printf("0");
         if (p[i]<10) printf("0");
-        if (p[i]<1) printf("0");
         printf("%d", p[i]);
     }
     printf("\n");
