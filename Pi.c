@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include <math.h>
-#define size 600
+#define size 1500
 
 int p[size], o1[size], o2[size];//from high digit to low
 
@@ -93,7 +93,7 @@ int main(int argc, const char * argv[]) {
     o2[0] = 4;
     
     
-    for (int i = 0; i < 3000; i ++ ){
+    for (int i = 0; i < 7500; i ++ ){
         calc(i);
     }
 
