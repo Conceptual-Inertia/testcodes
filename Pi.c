@@ -2,7 +2,7 @@
 //  main.c
 //  Pi
 //
-//  Created by Tyler on 2016/09/20.
+//  Created by Tyler Liu on 2016/09/20.
 //  Copyright © 2016 Tyler Liu. All rights reserved.
 //
 
