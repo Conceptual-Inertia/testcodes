@@ -1,5 +1,5 @@
 load R1 #0
-load R2 #5000
+load R2 #500
 load @0 #0
 load @1 #1
 1:
@@ -11,4 +11,4 @@ ADD R1 R1 #1
 GOTO P1
 2:
 PRINT @1
-RET
+RETURN
