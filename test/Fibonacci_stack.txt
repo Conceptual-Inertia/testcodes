@@ -1,23 +1,19 @@
 procedure main
 iconst 0
+istore
 iconst 1
+istore
 iconst 0
-istore
-iconst 500
-istore
-iload
-iload
-if_icmple 21
+iconst 1000
+if_icmple 15
 inc
-istore
-istore
+iload
+iload
 dup
 istore
 add
+istore
+goto 6
 iload
-goto 8
-istore
-istore
-istore
 print
 ret
