@@ -1,0 +1,29 @@
+procedure main
+iconst 30
+dup
+istore
+istore
+iconst 10000
+iconst 0
+if_icmple 25 
+inc
+iload
+iconst 2
+imul
+iconst 132
+iadd
+iconst 3
+swap
+idiv
+iconst 25600
+and
+iconst 4
+imul
+iand
+dup
+istore
+istore
+goto 6
+iload
+print
+ret
