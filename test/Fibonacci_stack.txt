@@ -1,14 +1,13 @@
+procedure main
 iconst 0
 iconst 1
 iconst 0
 istore
 iconst 500
-istore 
-
-a://while
-iload//load from global
+istore
 iload
-if_icmple b
+iload
+if_icmple 21
 inc
 istore
 istore
@@ -16,9 +15,9 @@ dup
 istore
 add
 iload
-goto a
-b:
+goto 8
 istore
 istore
 istore
 print
+ret
