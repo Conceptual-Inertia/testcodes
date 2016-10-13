@@ -1,0 +1,24 @@
+iconst 0
+iconst 1
+iconst 0
+istore
+iconst 500
+istore 
+
+a://while
+iload//load from global
+iload
+if_icmple b
+inc
+istore
+istore
+dup
+istore
+add
+iload
+goto a
+b:
+istore
+istore
+istore
+print
