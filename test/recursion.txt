@@ -1,0 +1,14 @@
+load R1 #0
+load R2 #1000
+not R4 R1
+call P1
+print R2
+return
+1:
+2:
+ltn R0 R1 R2
+if R0 P3
+add R2 R2 R4
+call P2
+3:
+return
