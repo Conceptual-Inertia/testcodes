@@ -1,0 +1,7 @@
+procedure main
+iconst 0
+iconst 100000000
+if_icmple 6
+inc
+goto 3
+ret
