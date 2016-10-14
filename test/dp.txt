@@ -1,0 +1,17 @@
+load @1 #30
+load R1 #0
+load R2 #10000
+1:
+LTN R0 R1 R2
+IF R0 P2
+SHIFTL @0 @0 #1
+Add @0 @0 #132
+div @0 @0 #3
+not R3 #25600
+and @0 @0 R3
+SHIFTR @0 @0 #2
+add R1 R1 #1
+GOTO P1
+2:
+print @0
+return
