@@ -4,8 +4,10 @@ istore
 iconst 1
 istore
 iconst 0
+dup
 iconst 1000
-if_icmple 15
+swap
+if_icmple 18
 inc
 iload
 iload
@@ -13,7 +15,7 @@ dup
 istore
 add
 istore
-goto 6
+goto 5
 iload
 print
 ret

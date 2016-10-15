@@ -1,11 +1,13 @@
 procedure main
-iconst 0
 iconst 10000000
 call rec
 print
 ret
 procedure rec
-if_icmple 8
+dup
+iconst 0
+ilt
+if_icmple 12
 ret
 dec
 call rec

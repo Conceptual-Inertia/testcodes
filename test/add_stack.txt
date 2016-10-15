@@ -1,7 +1,10 @@
 procedure main
 iconst 0
+dup
 iconst 100000000
-if_icmple 6
+swap
+ilt
+if_icmple 8
 inc
-goto 3
+goto 1
 ret
