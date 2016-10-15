@@ -1,0 +1,25 @@
+load R1 #1
+1:
+ltn R0 R1 #100000
+if R0 P2
+load @1 R1
+3:
+eql R2 @1 #1
+not R2 R2
+if R2 P4
+and R3 @1 #1
+eql R3 R3 #1
+if R3 P5
+mul @1 @1 #3
+INC @1
+5:
+not R3 R3
+if R3 P6
+div @1 @1 #2
+6:
+goto P3
+4:
+inc R1
+goto P1
+2:
+return
