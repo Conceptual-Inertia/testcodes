@@ -4,7 +4,7 @@ dup
 iconst 20000
 swap
 ilt 
-if_icmple 28
+if_icmple 29
 dup
 dup
 iconst 1
@@ -26,5 +26,6 @@ iconst 2
 swap
 div
 goto 7
+inc
 goto 1
 return
