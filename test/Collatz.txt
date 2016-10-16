@@ -1,6 +1,6 @@
 load R1 #1
 1:
-ltn R0 R1 #100000
+ltn R0 R1 #20000
 if R0 P2
 load @1 R1
 3:

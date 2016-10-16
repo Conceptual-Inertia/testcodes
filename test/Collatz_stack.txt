@@ -1,7 +1,7 @@
 procedure main
 iconst 1
 dup
-iconst 100000
+iconst 20000
 swap
 ilt 
 if_icmple 28
