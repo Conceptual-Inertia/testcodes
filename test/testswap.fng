@@ -1,0 +1,7 @@
+procedure main
+iconst 0
+iconst 6
+swap
+ilt
+if_icmple 0
+ret

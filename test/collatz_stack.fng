@@ -1,0 +1,30 @@
+procedure main
+iconst 1
+dup
+iconst 200
+swap
+ilt 
+if_icmple 28
+dup
+dup
+iconst 1
+ieq
+if_icmple 27
+dup
+iconst 1
+and
+dup
+if_icmple 21
+swap
+iconst 3
+imul
+inc
+swap
+ne
+if_icmple 26
+iconst 2
+swap
+idiv
+goto 7
+goto 1
+ret

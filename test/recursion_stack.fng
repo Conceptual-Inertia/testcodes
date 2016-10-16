@@ -1,0 +1,16 @@
+procedure main
+iconst 1000
+gstore
+call rec
+ret
+procedure rec
+gload
+dup
+iconst 0
+ieq
+if_icmple 6
+ter
+dec
+gstore
+call rec
+ret

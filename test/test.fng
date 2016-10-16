@@ -1,0 +1,4 @@
+procedure main
+iconst 1
+iconst 19
+ret

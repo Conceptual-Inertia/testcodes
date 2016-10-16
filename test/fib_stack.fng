@@ -1,0 +1,19 @@
+procedure main
+iconst 0
+gstore
+iconst 1
+gstore
+iconst 0
+dup
+iconst 1000
+if_icmple 17
+inc
+gload
+gload
+dup
+gstore
+iadd
+gstore
+goto 5
+gload
+ret
