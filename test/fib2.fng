@@ -8,7 +8,7 @@ dup
 iconst 1000
 swap
 ilt
-if_icmple 19
+if_icmple 20
 inc
 gload
 gload
