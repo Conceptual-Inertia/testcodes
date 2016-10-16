@@ -12,6 +12,7 @@ if_icmple 19
 inc
 gload
 gload
+swap
 dup
 gstore
 iadd
