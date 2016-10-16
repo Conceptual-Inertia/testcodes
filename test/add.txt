@@ -1,5 +1,5 @@
 load R1 #0
-load R2 #100000000
+load R2 #5000000
 1:
 ltn R0 R1 R2
 if r0 P2
