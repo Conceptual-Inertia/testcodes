@@ -1,7 +1,7 @@
 procedure main
 iconst 0
 dup
-iconst 5000
+iconst 500000
 igt
 if_icmple 7
 inc
